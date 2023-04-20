@@ -18,7 +18,7 @@ let package = Package(
         .package(
             name: "Firebase",
             url: "https://github.com/firebase/firebase-ios-sdk.git",
-            from: "8.0.0"
+            from: "10.0.0"
         ),
         .package(
             url: "https://github.com/ReactiveX/RxSwift.git",
