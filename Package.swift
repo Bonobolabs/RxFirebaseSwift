@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "RxFirebase",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v13), .macOS(.v12)
     ],
     products: [
         .library(
@@ -18,7 +18,7 @@ let package = Package(
         .package(
             name: "Firebase",
             url: "https://github.com/firebase/firebase-ios-sdk.git",
-            from: "10.0.0"
+            from: "11.0.0"
         ),
         .package(
             url: "https://github.com/ReactiveX/RxSwift.git",
